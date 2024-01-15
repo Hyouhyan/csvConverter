@@ -1,7 +1,8 @@
 from tabula import read_pdf
+# require jpype1
 import os
 
-def pdf2csv(pdf_path, csv_path):
+def pdf2csv(pdf_path, csv_path = ""):
     # pdf_pathが指定されていない場合は、処理終了
     if pdf_path == '':
         print('pdfファイルを指定してください')

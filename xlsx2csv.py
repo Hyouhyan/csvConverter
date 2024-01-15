@@ -2,7 +2,7 @@ import pandas as pd
 # require openpyxl
 import os
 
-def xlsx2csv(xlsx_file, csv_file):
+def xlsx2csv(xlsx_file, csv_file = ""):
     # xlsx_fileが指定されていない場合は、処理終了
     if xlsx_file == '':
         print('xlsxファイルを指定してください')
