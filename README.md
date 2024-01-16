@@ -11,3 +11,8 @@ tabula-pyを使用。
 pdf_pathの指定は必須。  
 csv_pathは指定がない場合、pdf同一名称で拡張子のみ変更して出力する。
 
+# xlsx2csv.py
+## xlsx2csv(xlsx_path, csv_path)
+pandasを使用。
+xlsx_pathの指定は必須。
+csv_pathは指定がない場合、xlsx同一名称で拡張子のみ変更して出力する。
